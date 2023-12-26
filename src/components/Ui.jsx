@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-key */
 
 import { useEffect, useState } from "react";
-import Schema from "../helpers/schema";
+import Schema from "../helpers/Schema.jsx"
 import { Switch } from "antd";
 import { dataState } from "../atom/data";
 import { useRecoilState, useRecoilValue } from "recoil";
