@@ -7,7 +7,7 @@ import {
 } from '@ant-design/icons';
 import { useEffect, useState } from 'react';
 
-import Schema from "../helpers/schema";
+import Schema from "../helpers/Schema.jsx";
 const SelectInput = ({ json, onChange, hideAdv }) => {
     const [customJson, setCustomJson] = useState(json)
     const [hideAdvanced, setHideAdvanced] = useState(false)
