@@ -22,7 +22,7 @@ The Dynamic Form Renderer project aims to create a user-friendly React applicati
 
 ## Demo
 
-https://frontend-assignment-text-1vhgecbqo-dmrt2002.vercel.app/
+https://frontend-assignment-text-dmrt2002.vercel.app/
 
 
 ## Tech Stack
