@@ -7,7 +7,7 @@ import {
 } from '@ant-design/icons';
 import { useEffect, useState } from 'react';
 
-import Schema from "../helpers/schema";
+import Schema from "../helpers/Schema.jsx";
 const Group = ({ json, hideAdv }) => {
     const [customJson, setCustomJson] = useState(json)
     const [hideAdvanced, setHideAdvanced] = useState(false)

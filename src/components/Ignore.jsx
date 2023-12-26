@@ -10,7 +10,7 @@ import { useRecoilState, useRecoilValue } from 'recoil';
 import { dataState } from '../atom/data';
 import { dependencyState } from '../atom/dependency';
 
-import Schema from "../helpers/schema";
+import Schema from "../helpers/Schema.jsx";
 const Ignore = ({ json, hideAdv }) => {
     const [customJson, setCustomJson] = useState(json)
     const [currentData, setCurrentData] = useState()
